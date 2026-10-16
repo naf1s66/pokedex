@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Logs
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local editor and tooling files
+.vscode/
+.idea/
+.qodo/
+.DS_Store
+Thumbs.db
+
+# Personal project notes (never committed)
+*.local.md
